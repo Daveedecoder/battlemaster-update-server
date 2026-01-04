@@ -1,0 +1,27 @@
+{
+    "version":  "2.4.7",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.4.7.zip",
+    "minimum_version":  "2.4.0",
+    "file_size":  12267,
+    "release_notes":  "Critical multi-currency deposit fixes and exchange rate improvements",
+    "checksum":  "d3a7fb0ff2f4d271c2c7a8edf7419df0",
+    "release_date":  "2025-12-21",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  true,
+    "changelog":  [
+                      "Fixed: USD deposits now correctly credit wallet with exact amount",
+                      "Fixed: Multi-currency conversion using admin-set exchange rates",
+                      "Fixed: NGN deposits no longer show rounding errors",
+                      "Fixed: Flutterwave deposits display correct currency",
+                      "Fixed: Paystack deposits use user currency",
+                      "Fixed: Transaction verification for all gateways",
+                      "Fixed: Cancelled transactions no longer credit wallet",
+                      "Improved: Currency conversion logic",
+                      "Improved: Wallet balance synchronization",
+                      "Added: Auto base currency detection",
+                      "Added: Flutterwave transaction model"
+                  ]
+}

@@ -1,0 +1,24 @@
+{
+    "latest_version": "2.5.7",
+    "min_supported_version": "2.0.0",
+    "release_date": "2026-01-03",
+    "release_notes": "Fixed composer dump-autoload warning for XAMPP environments",
+    "update_available": true,
+    "download_url": "http://localhost/battlemaster-update-server/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.5.7",
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "checksum": "ebbec014ff9637bfb675527cece36a39",
+    "file_size": 3851,
+    "changelog": [
+        "Fix: Resolved 'php is not recognized' error during updates",
+        "Fix: UpdateController now detects XAMPP PHP path automatically",
+        "Fix: Added fallback mechanisms for composer dump-autoload",
+        "Improvement: Better error handling for autoload optimization",
+        "Improvement: Added artisan optimize:clear as final fallback"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

@@ -1,0 +1,24 @@
+{
+    "version":  "2.5.6",
+    "database_changes":  true,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.5.6",
+    "file_size":  39000,
+    "release_notes":  "Multi-currency improvements and user experience enhancements",
+    "checksum":  "158ad81c1861e83e075246077d3711d7",
+    "backup_required":  true,
+    "release_date":  "2026-01-02",
+    "php_requirement":  "^8.2",
+    "migration_required":  true,
+    "critical_update":  false,
+    "changelog":  [
+                      "Feature: Added currency selection during user registration",
+                      "Fix: Removed NGN currency (unsupported by API)",
+                      "Fix: Registration now redirects to correct user dashboard",
+                      "Fix: Dashboard now displays username instead of full name",
+                      "Improvement: Updated all currency defaults from NGN to USD",
+                      "Improvement: Database seeder now only includes USD and EUR",
+                      "Database: Migration to convert existing NGN users to USD",
+                      "Database: Automatic cleanup of NGN currency records"
+                  ]
+}

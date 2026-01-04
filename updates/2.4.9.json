@@ -1,0 +1,21 @@
+{
+    "version": "2.4.9",
+    "release_date": "2026-01-02",
+    "release_notes": "Enhanced deposit system with currency-specific minimums and improved transaction tracking.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.4.9",
+    "checksum": "fc29ec43c3942f478c0d40d12ab9e25d",
+    "file_size": 13937,
+    "migration_required": false,
+    "critical_update": false,
+    "changelog": [
+        "Fixed: Removed hardcoded $100 minimum deposit",
+        "Feature: Currency-specific deposit minimums (USD: $5, EUR: 5, NGN: 5,000)",
+        "Feature: Added get_min_deposit_amount() helper function",
+        "Improved: Transaction history now displays actual payment gateway transaction IDs",
+        "Enhanced: Better user experience in deposit and wallet pages",
+        "Updated: Deposit validation in Paystack, Flutterwave, and main deposit controllers"
+    ],
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

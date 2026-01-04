@@ -1,0 +1,20 @@
+{
+    "version":  "2.4.8",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.4.8.zip",
+    "minimum_version":  "2.4.0",
+    "file_size":  6220,
+    "release_notes":  "Fixed admin update page to display Release Date and Release Notes correctly",
+    "checksum":  "428c14c67f49a9d628f1010fd24f7652",
+    "release_date":  "2025-12-21",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  false,
+    "changelog":  [
+                      "Fixed: Release Date column now displays dates correctly in All Available Updates table",
+                      "Fixed: Release Notes column now shows descriptions in Available Updates from Server table",
+                      "Improved: Updated field mapping in update.blade.php to match API response",
+                      "Note: This fix ensures update metadata displays properly for all users"
+                  ]
+}

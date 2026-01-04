@@ -1,0 +1,17 @@
+{
+  "version": "2.4.6",
+  "released": "2025-12-21",
+  "description": "Fixed admin update page - Release Date and Release Notes now display correctly",
+  "file_size": 6220,
+  "checksum": "5195bb1cc9e61192ec876ccc2896b47b",
+  "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.4.6.zip",
+  "changelog": [
+    "Fixed Release Date column not showing dates in All Available Updates table",
+    "Fixed Release Notes column not showing descriptions in Available Updates from Server table",
+    "Updated field mapping to match JSON metadata structure"
+  ],
+  "requires_migration": false,
+  "critical": false,
+  "min_php_version": "8.2",
+  "min_version": "2.4.2"
+}

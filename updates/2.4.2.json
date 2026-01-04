@@ -1,0 +1,21 @@
+{
+    "version": "2.4.2",
+    "release_date": "2025-12-21",
+    "release_notes": "Complete update system fix: metadata fetch, version filtering, and admin panel functionality.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.4.2",
+    "checksum": "82bd5d960359fe6c427d34c777289c29",
+    "file_size": 9134,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "Fix: Update server now correctly handles version metadata requests",
+        "Fix: Admin panel only shows newer versions (filters out old/skipped updates)",
+        "Fix: Update controller properly extracts metadata from server response",
+        "Improvement: Robust update system for all missed versions"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

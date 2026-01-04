@@ -1,0 +1,45 @@
+# Sensitive Files - DO NOT COMMIT
+admin.php
+config.json
+.env
+
+# Original index.php (use index-github.php instead)
+index.php
+
+# Development/Debug Files
+debug-*.php
+test-*.php
+inspect_json.php
+remove_bom.php
+php_patch.php
+fix.php
+
+# Patch Scripts (contain local paths)
+patch_*.ps1
+
+# Backup Files
+*-backup.json
+version-backup.json
+
+# Large ZIP Files (use GitHub Releases instead)
+*.zip
+*.zip.*
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp

@@ -1,0 +1,25 @@
+{
+    "version":  "2.6.3",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.6.3",
+    "breaking_changes":  false,
+    "file_size":  5400,
+    "release_notes":  "Critical fix for sequential update metadata fetching",
+    "checksum":  "91e17a7c89d9895b8fe1c40bdc29589a",
+    "backup_required":  true,
+    "release_date":  "2026-01-03",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  true,
+    "changelog":  [
+                      "Critical Fix: Changed metadata fetch from check-update to get-version-metadata endpoint",
+                      "Fix: Users on old versions can now update successfully",
+                      "Fix: Correct version-specific metadata is now fetched for each update",
+                      "Enhancement: Added enhanced error logging with version context",
+                      "Enhancement: Added version verification check in metadata response",
+                      "Enhancement: Added URL encoding for version parameter",
+                      "Fix: Sequential updates now work from any intermediate version",
+                      "Update Server: Created metadata files for v2.5.6-v2.6.2"
+                  ]
+}

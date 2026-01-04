@@ -1,0 +1,24 @@
+{
+    "version":  "2.6.1",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.6.1",
+    "breaking_changes":  false,
+    "file_size":  4682,
+    "release_notes":  "Fixed vendor/bin/composer path error and improved autoload methods",
+    "checksum":  "5402aee959eb43f98900d4ce3ff40dcc",
+    "backup_required":  true,
+    "release_date":  "2026-01-03",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  false,
+    "changelog":  [
+                      "Critical Fix: Removed incorrect vendor/bin/composer path that was causing \u0027Could not open input file\u0027 error",
+                      "Fix: Now uses shell_exec with cd /d command for proper directory context on Windows",
+                      "Enhancement: Tries direct composer command first (simplest and most reliable)",
+                      "Enhancement: Falls back to composer.phar if it exists in project root",
+                      "Enhancement: Uses Artisan::call for optimize:clear (more reliable than shell commands)",
+                      "Enhancement: Added manual artisan optimize as final fallback",
+                      "Improvement: Better success detection by checking for \u0027Generated optimized autoload\u0027 in output"
+                  ]
+}

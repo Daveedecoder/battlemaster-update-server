@@ -1,0 +1,20 @@
+{
+    "version": "2.4.0",
+    "release_date": "2025-12-18",
+    "release_notes": "Fixes update download URL logic and ensures version display from .env.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.4.0",
+    "checksum": "dfb783eea96e265ab0287e14f5b0505f",
+    "file_size": 18232,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "Fix: Update system always uses correct download URL from metadata",
+        "Fix: Admin layout shows version from .env",
+        "Improvement: Robust update and rollback logic"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

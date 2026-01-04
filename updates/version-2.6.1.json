@@ -1,0 +1,19 @@
+{
+    "critical_update":  false,
+    "migration_required":  false,
+    "checksum":  "45d549c9dc6438f8802d5ff2f8b58015",
+    "release_notes":  "Cumulative update - includes all project files for v2.6.1",
+    "version":  "2.6.1",
+    "release_date":  "2026-01-03",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.6.1",
+    "database_changes":  false,
+    "php_requirement":  "^8.2",
+    "laravel_requirement":  "^11.0",
+    "file_size":  158891665,
+    "changelog":  [
+                      "Cumulative package includes all changes from v2.5.4 and earlier",
+                      "Update page UI restructuring with blue/green sections",
+                      "Safe JSON preview functionality added",
+                      "All historical features and fixes included"
+                  ]
+}

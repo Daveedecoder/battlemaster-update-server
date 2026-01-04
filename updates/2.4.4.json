@@ -1,0 +1,17 @@
+{
+  "version": "2.4.4",
+  "released": "2025-12-21",
+  "description": "Fixed admin update page route parameters for update and rollback functions",
+  "file_size": 6220,
+  "checksum": "c1d343244d7be09a3f6564b882224c3e",
+  "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.4.4.zip",
+  "changelog": [
+    "Fixed missing version parameter in update route generation",
+    "Fixed missing version parameter in rollback route generation",
+    "Improved admin update page JavaScript route handling"
+  ],
+  "requires_migration": false,
+  "critical": false,
+  "min_php_version": "8.2",
+  "min_version": "2.4.3"
+}

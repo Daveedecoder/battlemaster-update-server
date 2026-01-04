@@ -1,0 +1,17 @@
+{
+    "global_update_enabled": true,
+    "require_license": false,
+    "max_download_size": 52428800,
+    "allowed_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+    ],
+    "maintenance_mode": false,
+    "last_updated": "2026-01-03T00:00:00Z",
+    "update_channel": "stable",
+    "auto_notify": true
+}

@@ -1,0 +1,21 @@
+{
+    "version":  "2.5.7",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.5.7",
+    "file_size":  3851,
+    "release_notes":  "Fixed composer dump-autoload warning for XAMPP environments",
+    "checksum":  "ebbec014ff9637bfb675527cece36a39",
+    "backup_required":  true,
+    "release_date":  "2026-01-03",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  false,
+    "changelog":  [
+                      "Fix: Resolved \u0027php is not recognized\u0027 error during updates",
+                      "Fix: UpdateController now detects XAMPP PHP path automatically",
+                      "Fix: Added fallback mechanisms for composer dump-autoload",
+                      "Improvement: Better error handling for autoload optimization",
+                      "Improvement: Added artisan optimize:clear as final fallback"
+                  ]
+}

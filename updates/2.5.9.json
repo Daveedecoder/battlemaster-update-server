@@ -1,0 +1,21 @@
+{
+    "version":  "2.5.9",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.5.9",
+    "file_size":  4206,
+    "release_notes":  "Enhanced update logging and autoload verification",
+    "checksum":  "b31471e03a02b10a899d297b8aaa403d",
+    "backup_required":  true,
+    "release_date":  "2026-01-03",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  false,
+    "changelog":  [
+                      "Enhancement: Added comprehensive logging to composer dump-autoload process",
+                      "Enhancement: Update process now logs extraction, migration, and cache clearing steps",
+                      "Enhancement: Better visibility into which autoload method succeeded",
+                      "Fix: Composer dump-autoload now logs success/failure details to laravel.log",
+                      "Debug: All update steps now logged for easier troubleshooting"
+                  ]
+}

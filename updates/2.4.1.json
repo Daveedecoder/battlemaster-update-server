@@ -1,0 +1,19 @@
+{
+    "version": "2.4.1",
+    "release_date": "2025-12-18",
+    "release_notes": "Fixes Blade syntax error in admin update page. All users will have a working update UI after applying this update.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.4.1",
+    "checksum": "80710e9d6ab060e11dbad1ad6276f0ce",
+    "file_size": 5896,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "Fix: Blade syntax error in update.blade.php causing unexpected token else.",
+        "UI: Admin update page now loads correctly for all users."
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

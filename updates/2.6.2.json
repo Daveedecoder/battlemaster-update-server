@@ -1,0 +1,24 @@
+{
+    "version":  "2.6.2",
+    "database_changes":  false,
+    "laravel_requirement":  "^11.0",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update\u0026token=BATTLEMASTER_SECRET_UPDATE_KEY_2025\u0026version=2.6.2",
+    "breaking_changes":  false,
+    "file_size":  6146,
+    "release_notes":  "Sequential Update System with streaming download fix",
+    "checksum":  "9661538e341ebaf2790fba37468b4726",
+    "backup_required":  true,
+    "release_date":  "2026-01-03",
+    "php_requirement":  "^8.2",
+    "migration_required":  false,
+    "critical_update":  true,
+    "changelog":  [
+                      "Critical Fix: Changed metadata fetch from check-update to get-version-metadata endpoint",
+                      "Critical Fix: Changed download from memory-based to streaming (sink method)",
+                      "Fix: Increased download timeout from 300s to 600s",
+                      "Fix: Added memory limit increase to 512M before extraction",
+                      "Enhancement: Detailed ZIP error codes in logs",
+                      "Enhancement: File size verification after download",
+                      "Security: Sequential update system enforces ordered progression"
+                  ]
+}

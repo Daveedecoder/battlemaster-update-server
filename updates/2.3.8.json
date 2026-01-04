@@ -1,0 +1,19 @@
+{
+    "version": "2.3.8",
+    "release_date": "2025-12-18",
+    "release_notes": "Update UI: release notes column, dark text, pagination, dynamic system name, direct update handling. Controller: release_notes support, fallback logic, pagination, global update support.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.3.8",
+    "checksum": "1439210d068f77a1117de68deb6015b6",
+    "file_size": 3928,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "Update UI: release notes column, dark text, pagination, dynamic system name, direct update handling",
+        "Controller: release_notes support, fallback logic, pagination, global update support"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

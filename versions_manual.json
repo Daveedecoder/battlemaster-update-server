@@ -1,0 +1,53 @@
+{
+    "success": true,
+    "versions": [
+        {
+            "version": "2.5.0",
+            "release_date": "2026-01-02",
+            "release_notes": "Version 2.5.0 update",
+            "download_url": "http:\/\/localhost\/battlemaster-update-server\/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.5.0",
+            "checksum": "f8935c51cacf522534b6f2f06087c50a",
+            "file_size": 24573,
+            "migration_required": false,
+            "critical_update": false,
+            "changelog": [
+                "Version 2.5.0 updates and improvements"
+            ],
+            "php_requirement": "^8.2",
+            "laravel_requirement": "^11.0",
+            "database_changes": false
+        },
+        {
+            "version": "2.5.1",
+            "release_date": "2026-01-02",
+            "release_notes": "Version 2.5.1 update",
+            "download_url": "http:\/\/localhost\/battlemaster-update-server\/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.5.1",
+            "checksum": "08ccfb4b5d63c19dc9eba2034b506f84",
+            "file_size": 91808,
+            "migration_required": false,
+            "critical_update": false,
+            "changelog": [
+                "Version 2.5.1 updates and improvements"
+            ],
+            "php_requirement": "^8.2",
+            "laravel_requirement": "^11.0",
+            "database_changes": false
+        },
+        {
+            "version": "2.5.2",
+            "release_date": "2026-01-02",
+            "release_notes": "Version 2.5.2 update",
+            "download_url": "http:\/\/localhost\/battlemaster-update-server\/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.5.2",
+            "checksum": "7122f1e5c16de1d0c1a920ddbab153f3",
+            "file_size": 11775,
+            "migration_required": false,
+            "critical_update": false,
+            "changelog": [
+                "Version 2.5.2 updates and improvements"
+            ],
+            "php_requirement": "^8.2",
+            "laravel_requirement": "^11.0",
+            "database_changes": false
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "version": "2.5.3",
+    "release_date": "2026-01-02",
+    "release_notes": "Fixed admin update view to show 'Installed' for older versions and increased pagination to 20 items per page.",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/index.php?action=download-update&token=BATTLEMASTER_SECRET_UPDATE_KEY_2025&version=2.5.3",
+    "checksum": "0d283e2f401a430495d1a787460d6142",
+    "file_size": 9580,
+    "migration_required": false,
+    "critical_update": false,
+    "changelog": [
+        "Fix: Update view now shows 'Installed' for versions older than or equal to current version",
+        "Fix: Resolved 'Undefined array key can_rollback' error",
+        "Improvement: Increased pagination from 10 to 20 versions per page",
+        "Improvement: Added logging for total versions fetched from update server"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}

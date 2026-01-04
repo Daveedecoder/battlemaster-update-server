@@ -1,0 +1,20 @@
+{
+  "version": "2.4.5",
+  "released": "2025-12-21",
+  "description": "Comprehensive fix - Stripe deposit routes and admin update page functionality",
+  "file_size": 10384,
+  "checksum": "85ff538d830351541152a6e59b71ed77",
+  "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.4.5.zip",
+  "changelog": [
+    "Fixed Stripe/Paystack/Flutterwave deposit callback route (Route [user.deposit.callback] not defined)",
+    "Fixed deposit page route references (Route [wallet.deposit] not defined)",
+    "Updated all DepositController route references from wallet.deposit to user.deposit",
+    "Fixed admin update page missing version parameter in route generation",
+    "Fixed admin rollback function missing version parameter",
+    "Improved payment gateway integration stability"
+  ],
+  "requires_migration": false,
+  "critical": true,
+  "min_php_version": "8.2",
+  "min_version": "2.4.2"
+}

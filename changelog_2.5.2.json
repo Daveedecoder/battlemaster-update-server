@@ -1,0 +1,51 @@
+﻿{
+    "version": "2.5.2",
+    "release_date": "2026-01-02",
+    "type": "patch",
+    "title": "Multi-Currency Enhancement - Removed Hardcoded NGN Defaults",
+    "description": "This update removes all hardcoded Nigerian Naira (NGN) currency defaults and replaces them with dynamic base currency lookups, ensuring true multi-currency support for global users.",
+    "changes": [
+        {
+            "category": "Bug Fix",
+            "description": "Removed hardcoded NGN fallback in User::getPreferredCurrency()",
+            "impact": "Users without a set currency now default to the admin's chosen base currency instead of NGN"
+        },
+        {
+            "category": "Bug Fix",
+            "description": "Removed hardcoded NGN fallback in Admin::getPreferredCurrency()",
+            "impact": "Admins without a set currency now default to the system's base currency"
+        },
+        {
+            "category": "Enhancement",
+            "description": "Updated PaystackController to use dynamic base currency",
+            "impact": "Payment currency defaults now respect the admin's base currency setting"
+        },
+        {
+            "category": "Enhancement",
+            "description": "Updated FlutterwaveController to use dynamic base currency",
+            "impact": "Payment processing now uses the correct base currency instead of assuming NGN"
+        },
+        {
+            "category": "Enhancement",
+            "description": "Fixed CurrencyController::formatAmountForUser() to use base currency",
+            "impact": "Amount formatting now respects the system's configured base currency"
+        },
+        {
+            "category": "Enhancement",
+            "description": "Updated minimum deposit calculation to be exchange-rate based",
+            "impact": "Minimum deposit amounts are now calculated proportionally for all currencies instead of using hardcoded values"
+        }
+    ],
+    "files_modified": [
+        "app/Models/User.php",
+        "app/Models/Admin.php",
+        "app/Http/Controllers/Admin/CurrencyController.php",
+        "app/Http/Controllers/Payment/PaystackController.php",
+        "app/Http/Controllers/Payment/FlutterwaveController.php",
+        "app/helpers.php"
+    ],
+    "migration_required": false,
+    "breaking_changes": false,
+    "upgrade_notes": "This update will automatically apply. No manual configuration needed. Your existing base currency settings will be respected.",
+    "rollback_available": true
+}
