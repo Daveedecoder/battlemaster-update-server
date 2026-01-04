@@ -1,7 +1,28 @@
 {
-    "latest_version":  "2.6.5",
+    "latest_version":  "2.6.6",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.6.6",
+                         "database_changes":  false,
+                         "laravel_requirement":  "^11.0",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.6.zip",
+                         "breaking_changes":  false,
+                         "file_size":  6055,
+                         "release_notes":  "Complete SSL/TLS Fix - XAMPP Compatibility",
+                         "checksum":  "8b3198a2d3a2f7b7b00610e165c15ef0",
+                         "backup_required":  true,
+                         "release_date":  "2026-01-04",
+                         "php_requirement":  "^8.2",
+                         "migration_required":  false,
+                         "critical_update":  true,
+                         "changelog":  [
+                                           "Fixed SSL/TLS errors for XAMPP",
+                                           "Fixed connection reset errors",
+                                           "Added retry logic and timeouts",
+                                           "Full XAMPP compatibility"
+                                       ]
+                     },
                      {
                          "version":  "2.6.5",
                          "database_changes":  false,

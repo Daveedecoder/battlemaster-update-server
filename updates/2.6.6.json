@@ -1,0 +1,28 @@
+{
+    "version": "2.6.6",
+    "release_date": "2026-01-04",
+    "release_notes": "Complete SSL/TLS Fix - XAMPP Compatibility Update",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.6.zip",
+    "checksum": "8b3198a2d3a2f7b7b00610e165c15ef0",
+    "file_size": 6055,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": true,
+    "changelog": [
+        "✅ FIXED: SSL/TLS certificate verification for XAMPP environments",
+        "✅ FIXED: Connection reset errors (cURL error 35)",
+        "✅ FIXED: SSL timeout issues (cURL error 28)",
+        "✅ Added aggressive SSL configuration with TLS 1.2 enforcement",
+        "✅ Added HTTP/1.1 protocol enforcement for compatibility",
+        "✅ Added retry logic (2 retries with 100ms delay)",
+        "✅ Added User-Agent headers for better server compatibility",
+        "✅ Increased timeouts: 120s connect, 300s read",
+        "✅ Applied to ALL GitHub API calls (metadata, versions, downloads)",
+        "✅ Fixed temp_path and backup_path configuration",
+        "🚀 Now fully compatible with XAMPP and production servers"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}
