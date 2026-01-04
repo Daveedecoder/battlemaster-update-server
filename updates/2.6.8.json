@@ -1,0 +1,15 @@
+{
+    "version": "2.6.8",
+    "release_date": "2026-01-04",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.8.zip",
+    "checksum": "96b308830258d1d72a89f5b4bed1f360",
+    "file_size": 6065,
+    "critical": true,
+    "migration_required": false,
+    "changelog": [
+        "Rebuilt with latest UpdateController fixes (BOM/UTF-8-safe version.json parsing)",
+        "Includes cache-busting and robust JSON handling for update checks",
+        "Ensures update list and downloads work behind caching CDNs"
+    ],
+    "description": "Rebuilt package with hardened update checker (UTF-8/BOM-safe parsing, cache-buster). Use this to re-run update cleanly."
+}
