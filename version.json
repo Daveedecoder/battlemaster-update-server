@@ -1,7 +1,30 @@
 {
-    "latest_version":  "2.6.3",
+    "latest_version":  "2.6.4",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.6.4",
+                         "database_changes":  false,
+                         "laravel_requirement":  "^11.0",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.4.zip",
+                         "breaking_changes":  false,
+                         "file_size":  5734,
+                         "release_notes":  "GitHub Migration Update - Fixed update system to work with GitHub-hosted updates",
+                         "checksum":  "27486c859a02f6eebed28cb17637f17e",
+                         "backup_required":  true,
+                         "release_date":  "2026-01-03",
+                         "php_requirement":  "^8.2",
+                         "migration_required":  false,
+                         "critical_update":  true,
+                         "changelog":  [
+                                           " Fixed UpdateController to work with GitHub-hosted update server",
+                                           " Updated config/update.php with proper GitHub endpoints",
+                                           " Removed localhost API dependency",
+                                           " Implemented direct version.json fetching from GitHub",
+                                           " Enhanced logging and error handling",
+                                           " System now works on both local and production"
+                                       ]
+                     },
                      {
                          "version":  "2.6.3",
                          "database_changes":  false,
