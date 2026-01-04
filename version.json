@@ -1,7 +1,29 @@
 {
-    "latest_version":  "2.6.4",
+    "latest_version":  "2.6.5",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.6.5",
+                         "database_changes":  false,
+                         "laravel_requirement":  "^11.0",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.5.zip",
+                         "breaking_changes":  false,
+                         "file_size":  5734,
+                         "release_notes":  "SSL Timeout Fixes - Improved HTTP/HTTPS connectivity",
+                         "checksum":  "91635c540ea83e7e902e00c5ede994fe",
+                         "backup_required":  true,
+                         "release_date":  "2026-01-04",
+                         "php_requirement":  "^8.2",
+                         "migration_required":  false,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Fixed SSL/TLS timeout issues",
+                                           "Increased connection timeout to 60 seconds",
+                                           "Increased read timeout to 120 seconds",
+                                           "Works with both HTTP and HTTPS",
+                                           "Better network error handling"
+                                       ]
+                     },
                      {
                          "version":  "2.6.4",
                          "database_changes":  false,

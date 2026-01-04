@@ -1,0 +1,24 @@
+{
+    "version": "2.6.5",
+    "release_date": "2026-01-04",
+    "release_notes": "SSL Timeout Fixes - Improved HTTP/HTTPS connectivity for GitHub updates",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.5.zip",
+    "checksum": "91635c540ea83e7e902e00c5ede994fe",
+    "file_size": 5734,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "✅ Fixed SSL/TLS certificate verification timeout for GitHub connections",
+        "✅ Increased HTTP connection timeout to 60 seconds",
+        "✅ Increased HTTP read timeout to 120 seconds",
+        "✅ Fixed compatibility for both HTTP and HTTPS protocols",
+        "✅ Added proper SSL option handling with withOptions()",
+        "✅ Applied fixes to all GitHub API calls (metadata, version list, sequential check)",
+        "✅ Better error handling for network timeouts"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}
