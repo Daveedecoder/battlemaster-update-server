@@ -1,7 +1,15 @@
-{
-    "latest_version":  "2.6.6",
+﻿{
+    "latest_version":  "2.6.7",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.6.7",
+                         "checksum":  "754b4c584ac369ac6c4f080f45ea728b",
+                         "critical":  true,
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.7.zip",
+                         "file_size":  5740,
+                         "release_date":  "2026-01-04"
+                     },
                      {
                          "version":  "2.6.6",
                          "database_changes":  false,

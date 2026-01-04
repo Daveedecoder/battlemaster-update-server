@@ -1,0 +1,20 @@
+{
+    "version": "2.6.7",
+    "release_date": "2026-01-04",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.6.7.zip",
+    "checksum": "754b4c584ac369ac6c4f080f45ea728b",
+    "file_size": 5740,
+    "critical": true,
+    "migration_required": false,
+    "changelog": [
+        "CRITICAL: Fixed HTTP connection timeout during update process",
+        "Fixed 'Connection Error' after composer dump-autoload completes",
+        "Response now sent to browser BEFORE cache clearing operations",
+        "Added fastcgi_finish_request() support for PHP-FPM environments",
+        "Cache clearing now happens in background after connection closes",
+        "Added error handling for cache operations to prevent update failure",
+        "Update success message now displays immediately without waiting",
+        "Resolves lost connection issue during Laravel cache clearing"
+    ],
+    "description": "Critical fix for HTTP connection timeout during update installation. The update process was losing connection to the browser after composer autoload completed, causing 'Connection Error' messages even when the update succeeded. This version sends the success response immediately and performs cache clearing operations after closing the connection to the browser."
+}
