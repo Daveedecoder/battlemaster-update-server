@@ -1,0 +1,23 @@
+{
+    "version": "2.7.3",
+    "release_date": "2026-01-05",
+    "release_notes": "Production-ready cache clearing - Fixed double-send response issue",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.3.zip",
+    "checksum": "5259ae41f0d1085cfde63a047b0ecde2",
+    "file_size": 5971,
+    "migration_required": false,
+    "backup_required": false,
+    "critical_update": false,
+    "changelog": [
+        "FIXED: Removed double-send response causing connection errors",
+        "Cache clearing now executes synchronously before response",
+        "Simple, reliable update flow: extract -> migrate -> clear caches -> respond",
+        "Fast cache clearing (typically under 1 second)",
+        "All caches cleared automatically (config, cache, view, route)",
+        "Clean success message with no connection timeout"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}
