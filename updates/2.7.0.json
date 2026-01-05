@@ -1,0 +1,17 @@
+{
+    "version": "2.7.0",
+    "release_date": "2026-01-05",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.0.zip",
+    "checksum": "8d1a16f7a75d48f43954bc626621adbb",
+    "file_size": 5810,
+    "critical": false,
+    "migration_required": false,
+    "changelog": [
+        "TESTING: All blocking operations removed (composer, cache clearing)",
+        "Update completes in milliseconds with instant success response",
+        "No background processing - instant success then page refresh",
+        "Simple 3-step process: extract, update .env, return success",
+        "Laravel autoloader regenerates on next request automatically"
+    ],
+    "description": "v2.7.0 - Test version with maximum performance. Removes all blocking operations for instant feedback. Update completes in seconds with immediate success message."
+}
