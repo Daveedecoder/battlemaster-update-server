@@ -1,7 +1,30 @@
 ﻿{
-    "latest_version":  "2.7.1",
+    "latest_version":  "2.7.2",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.7.2",
+                         "release_date":  "2026-01-05",
+                         "release_notes":  "Fixed cache clearing with instant response - No connection timeout",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.2.zip",
+                         "checksum":  "82c789124ceac20836b22c2bd6f0d0bb",
+                         "file_size":  6161,
+                         "migration_required":  false,
+                         "backup_required":  false,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "FIXED: Connection timeout during cache clearing",
+                                           "Response sent to browser BEFORE cache operations",
+                                           "Cache clearing happens in background after success message",
+                                           "Uses fastcgi_finish_request() to close connection immediately",
+                                           "All caches still clear automatically (config, cache, view, route)",
+                                           "User sees instant success - no more Lost connection errors"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  false
+                     },
                      {
                          "version":  "2.7.1",
                          "release_date":  "2026-01-05",
