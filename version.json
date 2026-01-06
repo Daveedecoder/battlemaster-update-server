@@ -1,7 +1,28 @@
 ﻿{
-    "latest_version":  "2.7.5",
+    "latest_version":  "2.7.6",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.7.6",
+                         "release_date":  "2026-01-06",
+                         "release_notes":  "Currency management UI improvement - Removed misleading refresh button",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.6.zip",
+                         "checksum":  "6f395ada1c98c3c446a706e4529c6d5a",
+                         "file_size":  2964,
+                         "migration_required":  false,
+                         "backup_required":  false,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Removed \"Refresh Rates from API\" button that was non-functional",
+                                           "Clarified that rates auto-update when page is refreshed",
+                                           "Updated info message to explain 1-hour cache behavior",
+                                           "Improved user understanding of automatic rate fetching"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  false
+                     },
                      {
                          "version":  "2.7.5",
                          "release_date":  "2026-01-06",
