@@ -1,0 +1,21 @@
+﻿{
+    "version":  "2.7.5",
+    "release_date":  "2026-01-06",
+    "release_notes":  "Currency admin live rates and safer conversion fallback",
+    "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.5.zip",
+    "checksum":  "485fecff9faff04e40dd3d4947c7b619",
+    "file_size":  5154,
+    "migration_required":  false,
+    "backup_required":  false,
+    "critical_update":  false,
+    "changelog":  [
+                      "Admin currencies page now displays live FreeCurrencyAPI rates with cached fallback",
+                      "Controller passes admin base currency context and liveFetchedAt timestamp",
+                      "Conversion logic now resolves base currency safely and rounds results",
+                      "formatAmountForUser defaults more defensively when user/base currency missing"
+                  ],
+    "breaking_changes":  false,
+    "php_requirement":  "^8.2",
+    "laravel_requirement":  "^11.0",
+    "database_changes":  false
+}
