@@ -1,7 +1,32 @@
 {
-    "latest_version":  "2.7.8",
+    "latest_version":  "2.7.9",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.7.9",
+                         "release_date":  "2026-01-07",
+                         "release_notes":  "Fixed wallet transaction type display and currency conversion calculations",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.9.zip",
+                         "checksum":  "483747d0bbe78ac79d27f145b8f9ca9d",
+                         "file_size":  15566,
+                         "migration_required":  true,
+                         "backup_required":  true,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Fixed deposit transactions showing as \u0027Debit\u0027 instead of \u0027Credit\u0027",
+                                           "Fixed wallet transaction totals to properly convert multi-currency amounts",
+                                           "Updated Flutterwave deposits to use correct transaction type",
+                                           "Updated Stripe deposits to use correct transaction type",
+                                           "Updated Paystack deposits to use correct transaction type",
+                                           "Updated manual deposits to use correct transaction type",
+                                           "Added currency field to challenge creation transactions",
+                                           "Added migration to fix existing deposit transaction types in database"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  true
+                     },
                      {
                          "version":  "2.7.8",
                          "database_changes":  false,
