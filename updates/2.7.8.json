@@ -1,0 +1,23 @@
+{
+    "version": "2.7.8",
+    "release_date": "2026-01-07",
+    "release_notes": "Database-driven FreeCurrencyAPI key system - removed .env dependency",
+    "download_url": "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.7.8.zip",
+    "checksum": "93a1679bdb9cd3b4b4079def6154a135",
+    "file_size": 8768,
+    "migration_required": false,
+    "backup_required": true,
+    "critical_update": false,
+    "changelog": [
+        "Removed hardcoded FreeCurrencyAPI key from codebase",
+        "Implemented database-only API key storage (settings table)",
+        "Removed .env fallback for FreeCurrencyAPI configuration",
+        "Added API key validation in CurrencyApiService",
+        "Enhanced admin currency page with API key management form",
+        "System now uses purely database-driven API keys (CodeCanyon compliant)"
+    ],
+    "breaking_changes": false,
+    "php_requirement": "^8.2",
+    "laravel_requirement": "^11.0",
+    "database_changes": false
+}
