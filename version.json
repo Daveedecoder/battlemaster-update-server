@@ -1,7 +1,28 @@
 {
-    "latest_version":  "2.8.1",
+    "latest_version":  "2.8.2",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.8.2",
+                         "release_date":  "2026-01-08",
+                         "release_notes":  "Proof submission simplified: no winner selection; opponent accept/dispute flow unchanged.",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.8.2.zip",
+                         "checksum":  "31a87bce89d562b79ad9eb0cc9f03dec",
+                         "file_size":  15493,
+                         "migration_required":  false,
+                         "backup_required":  true,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Removed winner selection from proof submission UI and backend",
+                                           "submitProof no longer sets winner_team; stores submitter and file only",
+                                           "Opponent still must accept or dispute; accepted goes to admin review",
+                                           "Dispute flow now derives claimed side from proof_submitter_team"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  false
+                     },
                      {
                          "version":  "2.8.1",
                          "release_date":  "2026-01-08",
