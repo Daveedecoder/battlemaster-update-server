@@ -1,7 +1,28 @@
 {
-    "latest_version":  "2.8.2",
+    "latest_version":  "2.8.3",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.8.3",
+                         "release_date":  "2026-01-08",
+                         "release_notes":  "Deposit page: unified history + user-currency display",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.8.3.zip",
+                         "checksum":  "a87efedd7fc53cc687e4b7384d2ba250",
+                         "file_size":  3449,
+                         "migration_required":  false,
+                         "backup_required":  true,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Deposit History now shows both Wallet and Gateway records",
+                                           "Amounts display in the user\u0027s currency using system exchange rates",
+                                           "New deposits store original currency for accurate future conversions",
+                                           "Paystack callback now marks pending gateway transactions as success"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  false
+                     },
                      {
                          "version":  "2.8.2",
                          "release_date":  "2026-01-08",
