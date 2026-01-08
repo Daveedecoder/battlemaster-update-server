@@ -1,7 +1,31 @@
 {
-    "latest_version":  "2.8.0",
+    "latest_version":  "2.8.1",
     "min_supported_version":  "2.0.0",
     "versions":  [
+                     {
+                         "version":  "2.8.1",
+                         "release_date":  "2026-01-08",
+                         "release_notes":  "Fixed hardcoded currency symbols - now uses user\u0027s preferred currency",
+                         "download_url":  "https://raw.githubusercontent.com/Daveedecoder/battlemaster-update-server/main/updates/2.8.1.zip",
+                         "checksum":  "5bf01bd93744e90a1d87e12ed1b07b01",
+                         "file_size":  8158,
+                         "migration_required":  false,
+                         "backup_required":  true,
+                         "critical_update":  false,
+                         "changelog":  [
+                                           "Fixed \u0027Insufficient wallet balance\u0027 error message - now shows user\u0027s currency instead of hardcoded NGN",
+                                           "Fixed wallet balance display in header - now shows user\u0027s currency",
+                                           "Fixed deposit notification - now shows user\u0027s currency",
+                                           "Fixed withdrawal notification - now shows user\u0027s currency",
+                                           "Fixed transaction description - now shows user\u0027s currency",
+                                           "Fixed transaction success message - now shows user\u0027s currency",
+                                           "All currency displays now respect user\u0027s preferred currency setting"
+                                       ],
+                         "breaking_changes":  false,
+                         "php_requirement":  "^8.2",
+                         "laravel_requirement":  "^11.0",
+                         "database_changes":  false
+                     },
                      {
                          "version":  "2.8.0",
                          "database_changes":  false,
